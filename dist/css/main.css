@@ -180,7 +180,7 @@ body section {
 	height: 66.66vh;
 	width: 100%;
 }
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 1020px) {
 	body section {
 		height: 80vh;
 		background-size: cover;
@@ -309,7 +309,11 @@ body section {
 	text-transform: capitalize;
 	justify-content: space-between;
 	font-size: 2rem;
+	border: none;
 	padding: 7% 4%;
+}
+.plumbus_hero-container .plumbing_hero-cta2:hover {
+	border: 0.13em pink solid;
 }
 @media screen and (min-width: 760px) {
 	.plumbus_hero-container {
@@ -320,7 +324,6 @@ body section {
 		grid-area: 1/1/25/9;
 		background-size: cover;
 		background-position-x: 48%;
-		font-size: 3rem;
 	}
 	.plumbus_hero-container .plumbus_hero-cta1 {
 		grid-area: 1/9/13/13;
